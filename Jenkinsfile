@@ -12,7 +12,7 @@ stages {
 
       // Get some code from a GitHub repository
 
-      git ''
+      git 'https://github.com/Gowtham-Devops/hello-world-servlet.git'
 
       // Get the Maven tool.
      
