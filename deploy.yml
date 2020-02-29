@@ -6,7 +6,7 @@
     shell: nohup /apache-tomcat-8.5.51/bin/shutdown.sh 
   - name: Clean the existing war file
     file:
-      path: /apache-tomcat-8.5.51/webapps/hello-world-servlet-example.war
+      path: /apache-tomcat-8.5.51/webapps/hello-world-servlet-example1.war
       state: absent    
   - name: Deploy War File
     get_url:
